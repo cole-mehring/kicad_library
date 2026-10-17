@@ -1,0 +1,147 @@
+(footprint "SOT-23_Diodes"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT-23 (TO-236), 3 pin, Diodes Inc. suggested pad layout (0.8x0.9mm pads, C=2.0, pitch 1.9), https://www.diodes.com/assets/Datasheets/DMG2302UKQ.pdf")
+	(tags "SOT-23 SOT23 TO-236 Diodes")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b672e83b-7ae4-48fa-b157-ab7e235cf980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-23_Diodes"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58fc4d87-b00e-4160-992f-7ddba45244fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2302UKQ.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d807a259-8b02-4825-9d9d-53fecb53d889")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SOT-23, 3 pin, Diodes Inc. suggested pad layout"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b61cf9f5-4101-430b-91c3-2448142d4216")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.2 -1.15)
+		(end -0.65 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1e21a7af-a766-4448-8962-adf1d572b37b")
+	)
+	(fp_rect
+		(start -1.2 0.75)
+		(end -0.65 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "30af13e3-8676-498c-bf83-129df9993ec7")
+	)
+	(fp_rect
+		(start 0.65 -0.2)
+		(end 1.2 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5717a2e0-920d-4741-bd77-d33ea8c54f29")
+	)
+	(fp_poly
+		(pts
+			(xy -0.325 -1.45) (xy 0.65 -1.45) (xy 0.65 1.45) (xy -0.65 1.45) (xy -0.65 -1.125)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d4db19b1-1841-4639-b13a-ae3630af21dd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "58a27b4f-eea1-4ae7-aa46-7c5fec664cf4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1 -0.95)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "47a2f3e0-81d2-43a2-b2ca-932cdf0feff7")
+	)
+	(pad "2" smd roundrect
+		(at -1 0.95)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "28c77707-2a1e-43f2-afb4-dbf17b711ce6")
+	)
+	(pad "3" smd roundrect
+		(at 1 0)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4bccc471-649c-419e-b7d2-bf5bd63f6b20")
+	)
+	(embedded_fonts no)
+	(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/SOT-23.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

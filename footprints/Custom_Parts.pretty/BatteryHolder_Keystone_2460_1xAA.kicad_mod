@@ -1,0 +1,122 @@
+(footprint "BatteryHolder_Keystone_2460_1xAA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Keystone 2460 single AA battery holder, PC mount, 57.0x16.9mm body, pins 52 mm apart, pad 1 = + (square), https://www.keyelco.com/userAssets/file/M65p28.pdf")
+	(tags "battery holder AA 2460 Keystone")
+	(property "Reference" "REF**"
+		(at 26 -10 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51d8bf67-1b8a-4e49-b240-8ebce1ef408f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BatteryHolder_Keystone_2460_1xAA"
+		(at 26 10 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c99cae90-3088-4c8b-86ff-6da0a33ea24e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p28.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d7833db-b82e-49cc-b732-99e55fcfb128")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Keystone 2460 1xAA battery holder, PC pins"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a5e13a1-0736-4aa7-a2af-051aa4a33263")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.5 -8.45)
+		(end 54.5 8.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "125b4bc2-ff71-4250-b7e5-8dd759706977")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 26 0 0)
+		(layer "F.Fab")
+		(uuid "bfc9442c-2fc3-441e-a872-c4c087396452")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 2.75 -5.995)
+		(size 2.64 2.64)
+		(drill 2.64)
+		(layers "*.Cu" "*.Mask")
+		(uuid "8947c962-f94b-48d2-b74f-1e49e4f00a28")
+	)
+	(pad "" np_thru_hole circle
+		(at 49.23 5.995)
+		(size 2.64 2.64)
+		(drill 2.64)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c6ab6680-6306-4fbc-b414-5aa55261311d")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2 2)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e5c3d3c-4f80-426e-8229-529d0cccae6d")
+	)
+	(pad "2" thru_hole circle
+		(at 51.99 0)
+		(size 2 2)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d469b68b-ac4f-4696-82b3-a71ec63384c9")
+	)
+	(embedded_fonts no)
+	(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/BatteryHolder_Keystone_2460_1xAA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

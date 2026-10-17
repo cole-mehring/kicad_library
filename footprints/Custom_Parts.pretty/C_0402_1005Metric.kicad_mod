@@ -1,0 +1,106 @@
+(footprint "C_0402_1005Metric"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0402 (1005 Metric), IPC-7351 nominal land pattern, 1.0x0.5mm body")
+	(tags "capacitor 0402 1005 MLCC")
+	(property "Reference" "REF**"
+		(at 0 -1.16 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "673b6d2e-6c11-45fd-b350-58f4bf141a52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_0402_1005Metric"
+		(at 0 1.16 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c28fae2b-2e48-4c66-8802-f7db61a3998d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16ac1932-8de3-434c-9920-c6d3242802fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Capacitor SMD 0402 (1005 Metric)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19dfb6aa-d880-4c35-adb7-e1a8295bd3ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "519c2aa0-2baf-4986-90ab-aea6a007cdef")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d7c0dd08-7158-4a2d-a91b-208fece5a6bd")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.48 0)
+		(size 0.56 0.62)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4c7f13cd-e004-4306-9c67-9f70fb881577")
+	)
+	(pad "2" smd roundrect
+		(at 0.48 0)
+		(size 0.56 0.62)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "55ad7bc2-8cfc-492e-9f0e-ba5ec8cbfc7f")
+	)
+	(embedded_fonts no)
+	(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/C_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

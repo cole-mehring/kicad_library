@@ -1,0 +1,5 @@
+{
+"description": "Capital letter R: 14x Wurth 151051VS04000 5mm green LEDs in parallel with one 6.2 Ohm 1206 resistor (RC1206FR-076R2L). Hierarchical labels: VIN (supply in, via resistor to all anodes) and K (all cathodes). Layout: 7 mm pitch, left shaft of 6 LEDs. ~150 mA total / ~11 mA per LED with 3 V across resistor + LED.",
+"keywords": "letter R LED array 151051VS04000 alphabet sign",
+"fields": {}
+}

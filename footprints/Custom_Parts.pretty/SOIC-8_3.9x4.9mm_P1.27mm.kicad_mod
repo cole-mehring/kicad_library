@@ -1,0 +1,237 @@
+(footprint "SOIC-8_3.9x4.9mm_P1.27mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOIC, 8 Pin, 3.9x4.9mm body, 1.27mm pitch (TI D0008A, JEDEC MS-012AA), for LMC555CMX/NOPB")
+	(tags "SOIC SO 8 D0008A")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3eb4d442-fd4d-4741-8af1-818c5c0a8fef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC-8_3.9x4.9mm_P1.27mm"
+		(at 0 3.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "403ec7fe-14ff-48c3-9824-cc57cb3dba97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmc555.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff42ad90-e471-4c77-a996-7ec521d7f322")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SOIC-8, 3.9x4.9mm body, 1.27mm pitch"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3012c9bd-d40c-4785-8e43-3ad5eb33a998")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3 -2.11)
+		(end -1.95 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "13a530ad-52f8-4197-a8df-8cb91d4cb47b")
+	)
+	(fp_rect
+		(start -3 -0.84)
+		(end -1.95 -0.43)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cc87a67b-f38c-4a81-a27d-2ac662216502")
+	)
+	(fp_rect
+		(start -3 0.43)
+		(end -1.95 0.84)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3e719dd2-5e36-4f9a-a3e3-e1ae72b0085d")
+	)
+	(fp_rect
+		(start -3 1.7)
+		(end -1.95 2.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bba2e227-3a9c-4c60-8e8d-9b1d4f58393f")
+	)
+	(fp_rect
+		(start 1.95 -2.11)
+		(end 3 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b34b39d2-6996-484f-aaef-43ea25334614")
+	)
+	(fp_rect
+		(start 1.95 -0.84)
+		(end 3 -0.43)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "11f9868c-afd6-40f3-b43c-93f705936e4b")
+	)
+	(fp_rect
+		(start 1.95 0.43)
+		(end 3 0.84)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8388cda3-4c76-437b-a05a-3828c06a6794")
+	)
+	(fp_rect
+		(start 1.95 1.7)
+		(end 3 2.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "938879be-d121-42d9-9da3-0332a5dd65d6")
+	)
+	(fp_poly
+		(pts
+			(xy -0.975 -2.45) (xy 1.95 -2.45) (xy 1.95 2.45) (xy -1.95 2.45) (xy -1.95 -1.475)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "535d5f99-e70d-4740-ae8e-3a10e9fbddfb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "414eea54-5876-4bd4-888f-51183697d544")
+		(effects
+			(font
+				(size 0.98 0.98)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.475 -1.905)
+		(size 1.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b982d353-ee8d-4f6f-b181-c0046a086f4e")
+	)
+	(pad "2" smd roundrect
+		(at -2.475 -0.635)
+		(size 1.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "aebc2dc1-3792-4dea-9a44-ba13fa1d548c")
+	)
+	(pad "3" smd roundrect
+		(at -2.475 0.635)
+		(size 1.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a382f9b3-1e3c-4eeb-95c2-746b96c08a6a")
+	)
+	(pad "4" smd roundrect
+		(at -2.475 1.905)
+		(size 1.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "85faa8e9-5926-4e5b-b160-f3438259caa2")
+	)
+	(pad "5" smd roundrect
+		(at 2.475 1.905)
+		(size 1.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5fa31b95-2213-4eec-a530-173ec8c1b708")
+	)
+	(pad "6" smd roundrect
+		(at 2.475 0.635)
+		(size 1.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e7ff1ac3-c6c7-4121-9174-d8dbbd08e53d")
+	)
+	(pad "7" smd roundrect
+		(at 2.475 -0.635)
+		(size 1.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b8ccc787-8096-4296-872e-bb793299e5cc")
+	)
+	(pad "8" smd roundrect
+		(at 2.475 -1.905)
+		(size 1.95 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b3e49526-8ab5-4421-b7c3-92278e07be11")
+	)
+	(embedded_fonts no)
+	(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

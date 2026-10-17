@@ -1,0 +1,2992 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d6590bfc-9a4b-40f5-80a7-2fd943467251")
+	(paper "A4")
+	(lib_symbols
+		(symbol "birthday:151051VS04000"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "151051VS04000"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "151051VS04000"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Color" "Bright Green"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode green 5mm THT WL-TMRC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED*D5.0mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "151051VS04000_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.778) (xy 0.762 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 0.762 2.286) (xy 0 3.048) (xy 0.762 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 2.032 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 3.048) (xy 2.032 2.286) (xy 1.27 3.048) (xy 2.032 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "151051VS04000_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "birthday:RC1206FR-076R2L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "6.2Ω"
+				(at 2.032 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Custom_Parts:R_1206_3216Metric"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC1206FR-076R2L"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, 6.2 Ohm, 1%, 0.25W, 200V, 100ppm/C, Thick Film, 1206"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RC1206FR-076R2L"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Resistance" "6.2R 1% 0.25W"
+				(at 2.032 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "resistor 6.2 6R2 1206 thick film LED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*1206*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC1206FR-076R2L_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RC1206FR-076R2L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Letter_R: 14x 151051VS04000 in parallel, one 6.2R 1206 resistor. ~0.95V across R -> ~150mA total, ~11mA/LED at 3V."
+		(exclude_from_sim no)
+		(at 25.4 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "819b78db-b340-4f27-ba05-b90db680233b")
+	)
+	(junction
+		(at 60.96 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04778b4e-7c07-4809-bcd6-6d93a087b35f")
+	)
+	(junction
+		(at 60.96 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "065a8eb2-7346-4a59-ac1d-d46da39bc2d3")
+	)
+	(junction
+		(at 121.92 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "171378a8-4406-4266-9060-957e81388079")
+	)
+	(junction
+		(at 91.44 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "175082dd-aee3-46ce-9002-fb88d62f38d1")
+	)
+	(junction
+		(at 121.92 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f3c271f-bfb7-4b0a-ac52-0aca347339d2")
+	)
+	(junction
+		(at 114.3 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2af2543c-47b3-408a-9fc1-8ae89c6cbdcc")
+	)
+	(junction
+		(at 83.82 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3970356d-8469-4e0f-b464-f8e9705e392f")
+	)
+	(junction
+		(at 114.3 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39bc9647-1e95-494a-aef3-1c97fdb83173")
+	)
+	(junction
+		(at 137.16 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46c7fdb2-337c-4212-953f-3c7793c7651b")
+	)
+	(junction
+		(at 99.06 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55893ab1-b29a-44a9-bf80-2e4ca840ba44")
+	)
+	(junction
+		(at 129.54 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "567d98de-417b-4e01-8757-48985d5c05d8")
+	)
+	(junction
+		(at 68.58 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78d8b08a-67fe-4671-94f1-b0d8d4b190e3")
+	)
+	(junction
+		(at 91.44 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8278a6f1-c33d-4210-826a-bbc25967575d")
+	)
+	(junction
+		(at 106.68 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fc9945d-2447-4c19-b5cb-0a63a7024d9e")
+	)
+	(junction
+		(at 53.34 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ba5e656-f720-426f-859e-56668b8b0774")
+	)
+	(junction
+		(at 99.06 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9beebfdb-4cc2-41da-aee5-50314c144b2a")
+	)
+	(junction
+		(at 53.34 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9294025-e2f3-4daf-a895-8f1a2e992b17")
+	)
+	(junction
+		(at 83.82 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b71e8d8d-9093-426b-be23-4d1a33e81890")
+	)
+	(junction
+		(at 106.68 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c17fcb73-5387-4a63-8f7d-0e92a2121396")
+	)
+	(junction
+		(at 137.16 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c94ddf17-e4c5-46d5-bb57-2debffdd447d")
+	)
+	(junction
+		(at 129.54 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc26c4ca-2b70-4b07-993d-6287274e5634")
+	)
+	(junction
+		(at 45.72 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d13fa780-ad1f-47d0-94c9-077256420117")
+	)
+	(junction
+		(at 76.2 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d55417d6-9984-4380-b1c6-764da5bc5503")
+	)
+	(junction
+		(at 68.58 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db5c7777-57e2-4cb1-b995-503024dcb8d1")
+	)
+	(junction
+		(at 144.78 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f46101b9-02fe-4ff1-9311-5c70f09bd708")
+	)
+	(junction
+		(at 76.2 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa6cef91-f621-4087-8507-c6383b113cab")
+	)
+	(wire
+		(pts
+			(xy 106.68 30.48) (xy 106.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0655ae9c-3bb3-4ad9-8ac3-716078abc6e4")
+	)
+	(wire
+		(pts
+			(xy 129.54 41.91) (xy 129.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1167a8a9-9067-400e-adc1-78fbdbcd3ffb")
+	)
+	(wire
+		(pts
+			(xy 53.34 41.91) (xy 53.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba9617a-6869-4a5d-8ea7-5ebd39b53ead")
+	)
+	(wire
+		(pts
+			(xy 68.58 41.91) (xy 68.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2129de2c-e6e3-4d11-976f-9bb95b40f0d6")
+	)
+	(wire
+		(pts
+			(xy 83.82 41.91) (xy 83.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f67250-913b-4eb3-a0fc-397ca470fc02")
+	)
+	(wire
+		(pts
+			(xy 114.3 30.48) (xy 121.92 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27412621-18cd-4317-be72-0452f725e947")
+	)
+	(wire
+		(pts
+			(xy 137.16 30.48) (xy 144.78 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d289710-2470-4ebe-8cc1-d77519ce558f")
+	)
+	(wire
+		(pts
+			(xy 68.58 30.48) (xy 76.2 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e8d925-6ad4-4c5f-9180-51362199318e")
+	)
+	(wire
+		(pts
+			(xy 83.82 30.48) (xy 91.44 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365fc92b-62b7-429d-bb9b-46c97bfffcb6")
+	)
+	(wire
+		(pts
+			(xy 129.54 30.48) (xy 129.54 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3949f324-65f7-4710-89fc-825078f31904")
+	)
+	(wire
+		(pts
+			(xy 106.68 41.91) (xy 106.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429f2384-780d-4618-96ad-101841416472")
+	)
+	(wire
+		(pts
+			(xy 91.44 41.91) (xy 91.44 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1451ef-0b34-497f-853e-d540589f51d2")
+	)
+	(wire
+		(pts
+			(xy 106.68 30.48) (xy 114.3 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0dc13f-68f9-4652-9c94-c949cfc2224b")
+	)
+	(wire
+		(pts
+			(xy 99.06 30.48) (xy 99.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad54813-b9a9-4961-86f1-038637c6937c")
+	)
+	(wire
+		(pts
+			(xy 121.92 41.91) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6976cf-2838-4b52-a63a-41d8a4dc9f84")
+	)
+	(wire
+		(pts
+			(xy 76.2 30.48) (xy 83.82 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ecb05b-af02-4210-8e97-7f1f6bad6151")
+	)
+	(wire
+		(pts
+			(xy 99.06 30.48) (xy 106.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "682bacd0-94a0-4035-8ab7-65382263a040")
+	)
+	(wire
+		(pts
+			(xy 60.96 30.48) (xy 60.96 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f1259b-6278-4f96-b005-22a5f5c269f8")
+	)
+	(wire
+		(pts
+			(xy 137.16 45.72) (xy 144.78 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7205ef75-590d-48cd-b716-a79aa692e2b8")
+	)
+	(wire
+		(pts
+			(xy 137.16 30.48) (xy 137.16 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73aca208-1afb-43aa-b9ac-9317877633f7")
+	)
+	(wire
+		(pts
+			(xy 121.92 30.48) (xy 121.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755a4c11-ccc2-49c6-a67c-07534647b8f1")
+	)
+	(wire
+		(pts
+			(xy 91.44 30.48) (xy 91.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b38455a-8e15-47c4-8b8c-9b59922ccaa6")
+	)
+	(wire
+		(pts
+			(xy 60.96 45.72) (xy 68.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86be9ed6-7865-4d5b-babb-f3666e1aacb0")
+	)
+	(wire
+		(pts
+			(xy 45.72 30.48) (xy 53.34 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ffa263-23e8-4201-a07c-bd6bcbe30960")
+	)
+	(wire
+		(pts
+			(xy 45.72 45.72) (xy 53.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a028924-c287-486e-bc6a-587239eaa85b")
+	)
+	(wire
+		(pts
+			(xy 45.72 30.48) (xy 45.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab49f96-be7b-40c7-ba53-9f4b2e3b3e75")
+	)
+	(wire
+		(pts
+			(xy 144.78 41.91) (xy 144.78 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd8267c-2072-4ed4-970c-d1cf7888629b")
+	)
+	(wire
+		(pts
+			(xy 83.82 30.48) (xy 83.82 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913efd75-ced2-47e8-a656-4a0d839e132e")
+	)
+	(wire
+		(pts
+			(xy 76.2 41.91) (xy 76.2 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936794d8-7f46-4c9f-8657-10a4f71b505a")
+	)
+	(wire
+		(pts
+			(xy 121.92 45.72) (xy 129.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a32a9a5-51db-4ade-a679-30281cc8ef6b")
+	)
+	(wire
+		(pts
+			(xy 99.06 41.91) (xy 99.06 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2061ba-1b29-49de-834f-1acc09ad2f74")
+	)
+	(wire
+		(pts
+			(xy 83.82 45.72) (xy 91.44 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b24ca47-3da0-4649-8a65-3b5b9b09b4ec")
+	)
+	(wire
+		(pts
+			(xy 53.34 45.72) (xy 60.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ead9ce-5bfe-4afd-ae71-ab5f160ee1c8")
+	)
+	(wire
+		(pts
+			(xy 76.2 30.48) (xy 76.2 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25c5c71-b934-4bad-88c9-c7b2e95386ae")
+	)
+	(wire
+		(pts
+			(xy 99.06 45.72) (xy 106.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a549d600-e6b5-4c28-8ec7-57ea425b98ba")
+	)
+	(wire
+		(pts
+			(xy 106.68 45.72) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66b1fa3-1d6f-4d05-b007-2786a5ecb9a1")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7fa717f-d364-4fa9-b138-3a720e825f59")
+	)
+	(wire
+		(pts
+			(xy 114.3 41.91) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8cf0ab9-def4-4f5a-a3bf-7763b1bb84fa")
+	)
+	(wire
+		(pts
+			(xy 68.58 45.72) (xy 76.2 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a932a3ee-5eb3-4775-8b31-dd253e879937")
+	)
+	(wire
+		(pts
+			(xy 91.44 45.72) (xy 99.06 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb0e0b2-999c-4960-aa31-e22d167ce753")
+	)
+	(wire
+		(pts
+			(xy 68.58 30.48) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa895e5-878d-4112-ac13-ab233a3908e7")
+	)
+	(wire
+		(pts
+			(xy 60.96 30.48) (xy 68.58 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20d5b6d-9c63-4e1a-b83d-bb1e9e4c4263")
+	)
+	(wire
+		(pts
+			(xy 137.16 41.91) (xy 137.16 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29b4e2a-9037-475c-ae25-da7b005784ca")
+	)
+	(wire
+		(pts
+			(xy 76.2 45.72) (xy 83.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c15888-1552-4db9-aa93-c19b77bf9529")
+	)
+	(wire
+		(pts
+			(xy 129.54 30.48) (xy 137.16 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd42185a-cad6-4f04-82bc-864283812748")
+	)
+	(wire
+		(pts
+			(xy 129.54 45.72) (xy 137.16 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea5b809-c03a-42b3-aa09-93309a8e8572")
+	)
+	(wire
+		(pts
+			(xy 114.3 30.48) (xy 114.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3a516c-cce6-4606-90d7-9ac03fec875a")
+	)
+	(wire
+		(pts
+			(xy 60.96 41.91) (xy 60.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf5284dc-f916-42f3-81de-a1706be8f6bc")
+	)
+	(wire
+		(pts
+			(xy 45.72 41.91) (xy 45.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5999bbe-87d8-4e4a-8ac3-d52fba4158e5")
+	)
+	(wire
+		(pts
+			(xy 53.34 30.48) (xy 53.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c76344c3-eda1-4313-8f09-bb7a0ef7b5ac")
+	)
+	(wire
+		(pts
+			(xy 36.83 30.48) (xy 45.72 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b93ff0-77d5-4e1f-9862-467ed9e06cca")
+	)
+	(wire
+		(pts
+			(xy 53.34 30.48) (xy 60.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a500e4-a144-417b-ba01-edd5a4db73aa")
+	)
+	(wire
+		(pts
+			(xy 91.44 30.48) (xy 99.06 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e347470f-13da-401b-b2aa-c92a85489dbc")
+	)
+	(wire
+		(pts
+			(xy 121.92 30.48) (xy 129.54 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e73654-d5b7-4a4a-b57d-202d808b355c")
+	)
+	(wire
+		(pts
+			(xy 144.78 30.48) (xy 144.78 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f29d13-33f8-4ca4-8c83-e705c1a62d5e")
+	)
+	(wire
+		(pts
+			(xy 144.78 45.72) (xy 152.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec632577-ac37-4ee4-a7e2-f09c56ce76a7")
+	)
+	(wire
+		(pts
+			(xy 25.4 30.48) (xy 29.21 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5417d8-93be-43e9-b003-2e1b67f18b25")
+	)
+	(hierarchical_label "K"
+		(shape output)
+		(at 152.4 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0598a79e-0af4-4af2-8258-c2b0f65aa2ce")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 25.4 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b7a2930-785a-486b-86a0-06542dd12f58")
+	)
+	(symbol
+		(lib_id "birthday:RC1206FR-076R2L")
+		(at 33.02 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "272459dd-25b1-4902-90b5-d6248c5a9a31")
+		(property "Reference" "R1"
+			(at 36.83 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.2Ω"
+			(at 36.83 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:R_1206_3216Metric"
+			(at 36.83 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC1206FR-076R2L"
+			(at 36.83 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Resistor, 6.2 Ohm, 1%, 0.25W, 200V, 100ppm/C, Thick Film, 1206"
+			(at 36.83 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 36.83 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "RC1206FR-076R2L"
+			(at 36.83 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Resistance" "6.2R 1% 0.25W"
+			(at 36.83 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "57401d66-a602-4ca4-b8db-d5ec3480ca53")
+		)
+		(pin "2"
+			(uuid "7e7fae3d-885e-4487-bc3f-7cfbbdc7281c")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 114.3 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "38fe5081-e1f3-4ec2-82c2-5660a29d1aed")
+		(property "Reference" "D10"
+			(at 118.11 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 118.11 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 118.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 118.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 118.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 118.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 118.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 118.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "18baf118-7555-4bdc-90ee-332b50006ab6")
+		)
+		(pin "2"
+			(uuid "1ced7ec9-80d9-4d5e-8a0b-de34c92e7cab")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 106.68 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "39f7375d-d464-4dd9-8d33-fd527a4e9054")
+		(property "Reference" "D9"
+			(at 110.49 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 110.49 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 110.49 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 110.49 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 110.49 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 110.49 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 110.49 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 110.49 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "a637c8ff-6337-4477-a643-3405aba9f6c1")
+		)
+		(pin "2"
+			(uuid "72ec49e0-eb53-4b69-85f5-553ca2ec232b")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 53.34 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3cd20314-1b92-483f-a170-8c981d1b37d9")
+		(property "Reference" "D2"
+			(at 57.15 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 57.15 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 57.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 57.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 57.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 57.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 57.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 57.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "8cbed7e7-4c4a-4d88-87d0-e3eaa709a40b")
+		)
+		(pin "2"
+			(uuid "0c5fa925-1c76-4d56-9088-61cb6a8b33b4")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 137.16 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5031eb99-a2d2-4430-8f0f-6c4f27b0fd90")
+		(property "Reference" "D13"
+			(at 140.97 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 140.97 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 140.97 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 140.97 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 140.97 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 140.97 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 140.97 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 140.97 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "e1955adf-1692-4677-bcb0-64e5f321cf59")
+		)
+		(pin "2"
+			(uuid "1df4d0bb-0e48-4ea7-8cf7-d003b908f2c5")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 121.92 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "899c011a-d7f6-456b-bfa3-8283d3ab8027")
+		(property "Reference" "D11"
+			(at 125.73 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 125.73 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 125.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 125.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 125.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 125.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 125.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 125.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "af3df6d6-3c5b-452d-ac7e-6752279d09ab")
+		)
+		(pin "2"
+			(uuid "a94af980-65d8-436f-873b-6f0e58649379")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 76.2 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c4051d7-1b31-4699-aaa5-cea18d04c6fa")
+		(property "Reference" "D5"
+			(at 80.01 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 80.01 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "87423229-0978-45dc-bd4c-a4b845bf2ba7")
+		)
+		(pin "2"
+			(uuid "9eed8c3c-3020-4da3-b7dc-6d8b9f2e64ca")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 83.82 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "920a35d5-e479-4a7b-a76a-e5d7c95b3043")
+		(property "Reference" "D6"
+			(at 87.63 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 87.63 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 87.63 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 87.63 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 87.63 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 87.63 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 87.63 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 87.63 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "93500a51-9c05-4949-b212-3f50e1aec776")
+		)
+		(pin "2"
+			(uuid "cbe9051e-4498-4e69-aa9d-30e871cd3414")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 68.58 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99118e1b-6a9f-4ca7-9325-0d4f5bd4f318")
+		(property "Reference" "D4"
+			(at 72.39 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 72.39 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "ff04e04e-9bcd-4f3b-8504-576465a4af2e")
+		)
+		(pin "2"
+			(uuid "4c6ab31f-32ca-45dc-b779-5f6a5e70cbc9")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 91.44 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f1213ab-917a-40b2-a0a5-68645cf62b04")
+		(property "Reference" "D7"
+			(at 95.25 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 95.25 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 95.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 95.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 95.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 95.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 95.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 95.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2388a417-9b9f-4845-a335-5638bb9a9b31")
+		)
+		(pin "2"
+			(uuid "7d895e47-8300-46f1-b98d-98f20a5bcb52")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 99.06 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a6a33374-ca0d-4ef3-9f0f-787a479b0912")
+		(property "Reference" "D8"
+			(at 102.87 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 102.87 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 102.87 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 102.87 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 102.87 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 102.87 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 102.87 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 102.87 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "01999813-7740-44bb-bbbf-cef3725b0a84")
+		)
+		(pin "2"
+			(uuid "e32c32fa-6b8a-49b8-b548-6d6bf1302710")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 45.72 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2855600-f6d5-406c-ad44-1217805055ce")
+		(property "Reference" "D1"
+			(at 49.53 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 49.53 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 49.53 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 49.53 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 49.53 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 49.53 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 49.53 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 49.53 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "f48f8649-2903-48b4-aa6c-000cad4ea641")
+		)
+		(pin "2"
+			(uuid "00e21b10-e3e5-472d-9b8f-d947c6fcc8a8")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 129.54 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d50058f3-b354-46bd-89bb-3e2d680526f3")
+		(property "Reference" "D12"
+			(at 133.35 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 133.35 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 133.35 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 133.35 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 133.35 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 133.35 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 133.35 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 133.35 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "61f6c8e0-c5a2-40ad-a1e5-52d7c0a90a1e")
+		)
+		(pin "2"
+			(uuid "53da6a19-4117-4e33-aa08-ac0e8a92065a")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 144.78 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df61d17f-5c16-4bf8-a330-b76846e13793")
+		(property "Reference" "D14"
+			(at 148.59 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 148.59 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 148.59 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 148.59 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 148.59 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 148.59 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 148.59 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 148.59 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4773e852-4c53-42bf-8fae-4e1be4a6dcd0")
+		)
+		(pin "2"
+			(uuid "fbde0638-940e-4b68-a7a2-ea99a763f05c")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "birthday:151051VS04000")
+		(at 60.96 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed6428e0-6914-42c5-ab2f-4cb6e888569a")
+		(property "Reference" "D3"
+			(at 64.77 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "151051VS04000"
+			(at 64.77 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:LED_D5.0mm_WE-WL-TMRC_AnodePin1"
+			(at 64.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151051VS04000.pdf"
+			(at 64.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "LED, 5mm THT, Bright Green 572nm, Diffused, 2.1V typ @ 20mA, 30mA max, 40 deg"
+			(at 64.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 64.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "151051VS04000"
+			(at 64.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Color" "Bright Green"
+			(at 64.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "58c3a4a9-5d96-4a0b-bc76-f09b5db0d4ff")
+		)
+		(pin "2"
+			(uuid "751c82a2-c262-4980-8718-01992bf1144e")
+		)
+		(instances
+			(project ""
+				(path "/d6590bfc-9a4b-40f5-80a7-2fd943467251"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

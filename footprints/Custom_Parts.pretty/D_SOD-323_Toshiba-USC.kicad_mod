@@ -1,0 +1,138 @@
+(footprint "D_SOD-323_Toshiba-USC"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Toshiba USC (SOD-323 equivalent) diode package, Toshiba reference land pattern 0.8x0.9mm pads at 2.3mm pitch, pin 1 = cathode, https://toshiba.semicon-storage.com/info/docget.jsp?did=9019&prodName=CUS08F30")
+	(tags "SOD-323 USC SC-76 diode Toshiba")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7970576c-4fc3-4ecd-9b12-0f8d25d70e1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_SOD-323_Toshiba-USC"
+		(at 0 1.7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "057a7570-c4e5-4d4a-8269-c41a5de61744")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=9019&prodName=CUS08F30"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ee5ceb2-9e06-4950-a723-84be5f80bd68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Toshiba USC / SOD-323 diode, 2.3mm pad pitch"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4faa57e8-f894-4514-8fe0-908fe8ab29d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.45 -0.625)
+		(end -0.45 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d5c47955-f9b8-448c-86f5-b99bcf724ba9")
+	)
+	(fp_rect
+		(start -1.25 -0.15)
+		(end -0.85 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fe29d28d-d544-4714-a569-b7a359f7406f")
+	)
+	(fp_rect
+		(start -0.85 -0.625)
+		(end 0.85 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1d41cd49-1b6f-42e7-a3b8-c0ca34fe2c10")
+	)
+	(fp_rect
+		(start 0.85 -0.15)
+		(end 1.25 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7fa8bed0-0c77-4ccb-9778-859f1fea10ca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 0 0)
+		(layer "F.Fab")
+		(uuid "43ae36fa-3b27-4c95-b61e-b8b809b03578")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.15 0)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ed824208-30fc-44f0-9f74-cdca1baaddee")
+	)
+	(pad "2" smd roundrect
+		(at 1.15 0)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "48bc6a72-5e76-4869-b577-a10cb0900c02")
+	)
+	(embedded_fonts no)
+	(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/D_SOD-323.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
