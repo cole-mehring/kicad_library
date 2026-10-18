@@ -115,7 +115,7 @@
 		(uuid "737ca3d6-fc3b-4af6-ad2f-2444b915432e")
 	)
 	(embedded_fonts no)
-	(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+	(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 		(offset
 			(xyz 2.54 0 0)
 		)

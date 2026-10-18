@@ -108,7 +108,7 @@
 		(uuid "d469b68b-ac4f-4696-82b3-a71ec63384c9")
 	)
 	(embedded_fonts no)
-	(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/BatteryHolder_Keystone_2460_1xAA.step"
+	(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/BatteryHolder_Keystone_2460_1xAA.step"
 		(offset
 			(xyz 0 0 0)
 		)

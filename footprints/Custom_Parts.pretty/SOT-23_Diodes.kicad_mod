@@ -133,7 +133,7 @@
 		(uuid "4bccc471-649c-419e-b7d2-bf5bd63f6b20")
 	)
 	(embedded_fonts no)
-	(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/SOT-23.step"
+	(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/SOT-23.step"
 		(offset
 			(xyz 0 0 0)
 		)

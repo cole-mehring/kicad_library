@@ -205,7 +205,7 @@
 			(uuid "a1fcfb61-aac3-4fc3-a2da-a76a733ea721")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)
@@ -335,7 +335,7 @@
 			(uuid "0299d10f-f440-4c9f-b8ef-0d02815a03c8")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)
@@ -465,7 +465,7 @@
 			(uuid "570ae7f7-b9aa-4abc-98ea-d0623cf5dcc6")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)
@@ -595,7 +595,7 @@
 			(uuid "f3f93477-58d2-4d04-b46a-95eb5fb46917")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)
@@ -725,7 +725,7 @@
 			(uuid "b3bb4579-312d-40dc-85b4-e1d0ca800ae7")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)
@@ -855,7 +855,7 @@
 			(uuid "e31ad1b9-00be-4658-92ef-c0f1ea96907c")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)
@@ -985,7 +985,7 @@
 			(uuid "25607b50-6803-43c4-bd32-a0bbab6cd625")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)
@@ -1115,7 +1115,7 @@
 			(uuid "570ae280-af84-44fe-9d79-202e1d813520")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)
@@ -1245,7 +1245,7 @@
 			(uuid "5617d925-cc91-4bb4-8dd5-6480d3ce618c")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)
@@ -1375,7 +1375,7 @@
 			(uuid "f7faaa30-3575-49c1-93eb-6aed2394c7f7")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)
@@ -1505,7 +1505,7 @@
 			(uuid "c584d68d-3f94-42c9-977b-efc586b0bc7b")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)
@@ -1612,7 +1612,7 @@
 			(uuid "4072a793-eb2f-498f-99db-3b914422aa57")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/R_1206_3216Metric.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1742,7 +1742,7 @@
 			(uuid "1e95fbe7-db04-4200-ac5a-d5f367d6aebc")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)
@@ -1872,7 +1872,7 @@
 			(uuid "591dc147-3c60-4053-b4f1-35ccca54c622")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)
@@ -2002,7 +2002,7 @@
 			(uuid "d8e728b6-8d38-456f-9356-60b817c05d9b")
 		)
 		(embedded_fonts no)
-		(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
+		(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/LED_D5.0mm.step"
 			(offset
 				(xyz 2.54 0 0)
 			)

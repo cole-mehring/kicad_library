@@ -1,0 +1,137 @@
+(footprint "R_0805_2012Metric"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0805 (2012 Metric), IPC-7351 nominal land pattern, 2.0x1.25mm body")
+	(tags "resistor 0805 2012")
+	(property "Reference" "REF**"
+		(at 0 -1.65 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "139c516a-635c-46e9-9a58-edb037315f60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_0805_2012Metric"
+		(at 0 1.65 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d662c295-7cb5-4c9a-80b4-7de70bef1f58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9897e235-511b-472c-bcd3-5ff9705d1b00")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor SMD 0805 (2012 Metric)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfd75001-c633-4247-bfa9-69e93eb75a4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.227064 -0.735)
+		(end 0.227064 -0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3c6ea62-1797-4dd0-bc35-03d2bd4541ea")
+	)
+	(fp_line
+		(start -0.227064 0.735)
+		(end 0.227064 0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79a2cb5a-b7ba-443b-92cf-a3c061ae7a7b")
+	)
+	(fp_rect
+		(start -1.68 -0.95)
+		(end 1.68 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2bc83d84-cd55-4ad4-9c95-ca651b551aae")
+	)
+	(fp_rect
+		(start -0.525 -0.27)
+		(end 0.525 0.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "672a831d-a4e0-4897-870f-063055699019")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1d5cf565-6ecc-47ca-8947-c6a36129f8d3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.9125 0)
+		(size 1.025 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.243902)
+		(uuid "a30b4d83-14c2-4e62-bd6c-6c0f71be3214")
+	)
+	(pad "2" smd roundrect
+		(at 0.9125 0)
+		(size 1.025 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.243902)
+		(uuid "b0795fc6-39a3-428e-9e8a-e7d314b23ef2")
+	)
+	(embedded_fonts no)
+	(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/R_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

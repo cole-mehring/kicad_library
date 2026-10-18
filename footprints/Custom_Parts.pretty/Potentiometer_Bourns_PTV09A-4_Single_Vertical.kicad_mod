@@ -159,7 +159,7 @@
 		(uuid "8796b32a-74cb-473e-8a84-c196a4a9dcf8")
 	)
 	(embedded_fonts no)
-	(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/ptv09a-4x20f-xxxx.stp"
+	(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/ptv09a-4x20f-xxxx.stp"
 		(offset
 			(xyz 7 2.5 6.4)
 		)

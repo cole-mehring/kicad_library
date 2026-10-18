@@ -92,7 +92,7 @@
 		(uuid "64362daa-6080-47c9-b4cd-f004e034de3e")
 	)
 	(embedded_fonts no)
-	(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/R_0402_1005Metric.step"
+	(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/R_0402_1005Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

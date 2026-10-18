@@ -367,7 +367,7 @@
 		(uuid "1c38e26b-e8ba-45cb-8b73-2608d2c5ba8a")
 	)
 	(embedded_fonts no)
-	(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.step"
+	(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -223,7 +223,7 @@
 		(uuid "b3e49526-8ab5-4421-b7c3-92278e07be11")
 	)
 	(embedded_fonts no)
-	(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
+	(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -143,7 +143,7 @@
 		(uuid "93ce034e-4729-45e6-bfd3-08f978e07016")
 	)
 	(embedded_fonts no)
-	(model "C:/git/birthday_library/3D/Custom_Parts.3dshapes/100SPxT1B4M2xE.stp"
+	(model "C:/git/kicad_library/3D/Custom_Parts.3dshapes/100SPxT1B4M2xE.stp"
 		(offset
 			(xyz 4.7 0 -23.6)
 		)
